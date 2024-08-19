@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3                &kp N4             &kp N5               &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &none            &kp C_BRI_DEC   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN    &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF     &ext_power EP_ON   &rgb_ug RGB_EFF      &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans                &trans             &trans               &kp INS          &kp DEL          &trans
+&trans  &kp N1           &kp N2          &kp N3                &kp N4             &kp N5             &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
+&trans  &none            &kp C_BRI_DEC   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF     &ext_power EP_ON   &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+                                         &trans                &trans             &trans             &kp INS          &kp DEL          &trans
             >;
         };
 
